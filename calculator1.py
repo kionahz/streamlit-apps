@@ -43,5 +43,3 @@ def calculate(num1, num2, operation):
 # add the button to calculate
 if st.button("Calculate", help= f"Click here to {operation} two numbers"):
     calculate(num1, num2, operation)
-
-# message to Lisa: Hi
