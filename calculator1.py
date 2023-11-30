@@ -40,6 +40,7 @@ def calculate(num1, num2, operation):
     else:
         st.success(f"The total is {total}")
 
+
 # add the button to calculate
-if st.button("Calculate", help= f"Click here to {operation} two numbers"):
+if st.button("Calculate", help=f"Click here to {operation} two numbers"):
     calculate(num1, num2, operation)
