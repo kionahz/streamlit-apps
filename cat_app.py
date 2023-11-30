@@ -22,4 +22,4 @@ def place_cat_image():
 
 # add a button
 st.button('Click here',
-          on_click=get_content())
+          on_click=place_cat_image())
